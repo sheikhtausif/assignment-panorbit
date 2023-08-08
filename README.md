@@ -11,10 +11,16 @@ Executing the commands mentioned below one by one in your command line will help
 git clone https://github.com/sheikhtausif/assignment-panorbit.git
 ```
 
-**To run the react app execute below command**
+**To run the react app execute below commands on by one**
 
 ```
 cd ./assignment-panorbit
+```
+
+```
 npm install
+```
+
+```
 npm start
 ```
