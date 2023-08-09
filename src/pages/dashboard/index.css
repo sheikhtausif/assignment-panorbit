@@ -1,0 +1,50 @@
+.dashboard-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.users-list-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -54%);
+  width: 36%;
+  height: 600px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #ffff;
+  border-radius: 32px;
+  overflow: hidden;
+}
+.users-list-top {
+  height: 120px;
+  width: 100;
+  text-align: center;
+  background: #f6f6f6;
+  color: #545454;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px 32px 0 0;
+}
+.users-list {
+  padding: 0 32px 0 36px;
+  max-height: 480px;
+  overflow-y: scroll;
+}
+.users-list > span {
+  cursor: pointer;
+}
+
+/* customize scrollbar for user list */
+.users-list::-webkit-scrollbar {
+  width: 8px;
+}
+.users-list::-webkit-scrollbar-track {
+  background: #ffff;
+  padding-right: 10px;
+}
+.users-list::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 5px;
+}

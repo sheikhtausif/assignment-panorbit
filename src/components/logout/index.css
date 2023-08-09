@@ -1,0 +1,73 @@
+.logout-container {
+  position: absolute;
+  right: 0;
+  width: 400px;
+  height: 520px;
+  border-radius: 32px;
+  padding: 48px;
+  background: #ffff;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: auto;
+}
+
+.logout-profile-container {
+  width: 125px;
+  height: 125px;
+  border: 50%;
+}
+.logout-profile-container > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.logout-container > .user-name {
+  color: #545454;
+  font-size: 22px;
+}
+.logout-container > .user-email {
+  color: #9a9a9a;
+  font-size: 22px;
+}
+
+.logout-user-details {
+  cursor: pointer;
+}
+
+.user-email + .logout-user-details {
+  border-top: 2px solid #ece8e8;
+  border-bottom: 2px solid #ece8e8;
+}
+
+.logout-user-details {
+  width: 100%;
+}
+
+.logout-user-details .user-details {
+  justify-content: center;
+}
+
+.logout-user-details .profile-pic {
+  width: 40px;
+  height: 40px;
+}
+
+.logout-user-details > .user-details p {
+  font-size: 19px;
+}
+
+.logout-button {
+  padding: 12px 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffff;
+  background: #d55151;
+  border-radius: 32px;
+  border: none;
+  cursor: pointer;
+}

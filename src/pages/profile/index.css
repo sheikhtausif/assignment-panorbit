@@ -1,0 +1,103 @@
+.main-profile {
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+}
+.profile-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 16px 0;
+}
+
+/* Left Container */
+.profile-left-container {
+  width: 40%;
+  min-width: 510px;
+  border-right: 2px solid #ece8e8;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 32px;
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.profile-div > p {
+  font-size: 28px;
+  color: #545454;
+  font-weight: 500;
+}
+
+.profile-div > .profile-pic {
+  width: 300px;
+  height: 300px;
+}
+.profile-div > .profile-pic img {
+  width: 100%;
+}
+
+/* COmmon style for user details, company details and address */
+.user-info-div,
+.company-info-div,
+.user-address-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 12px;
+}
+
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  width: 80%;
+  margin: auto;
+}
+
+.company-info-div > p,
+.user-address-div > p {
+  text-align: center;
+  color: #9a9a9a;
+  font-size: 28px;
+}
+
+/* Right COntainer */
+.profile-right-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding-left: 32px;
+}
+.user-address-div > p {
+  text-align: left;
+}
+
+/* Map div */
+.user-location-div {
+  width: 100%;
+  height: 600px;
+  border-radius: 32px;
+  border: 2px solid #ece8e8;
+}
+
+/* Coordinate div */
+.coordinate-div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+}
+
+.coordinate-div p {
+  font-size: 18px;
+  text-align: right;
+}
