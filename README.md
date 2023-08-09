@@ -4,14 +4,13 @@
 
 ## Installing and Running
 
-Executing the commands mentioned below one by one in your command line will help in making this React app .
-**Cloning**
+**Execute the below commands to clone the app**
 
 ```
 git clone https://github.com/sheikhtausif/user-management.git
 ```
 
-**To run the react app execute below commands on by one**
+**To run the app execute below commands one by one**
 
 ```
 cd ./user-management
