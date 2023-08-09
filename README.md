@@ -37,6 +37,7 @@ npm start
 
 <ul>
   <li>React-router-dom</li>
+  <li>React Icons</li>
   <li>Context API</li>
   <li>Axios</li>
 </ul>

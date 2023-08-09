@@ -5,6 +5,7 @@ import Profile from './pages/profile';
 import Posts from './pages/posts';
 import Gallery from './pages/gallery';
 import ToDo from './pages/todo';
+import ChatBox from './components/chatbox';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/todo" element={<ToDo />} />
       </Routes>
+      {pathname !== '/' ? <ChatBox /> : null}
     </div>
   );
 }

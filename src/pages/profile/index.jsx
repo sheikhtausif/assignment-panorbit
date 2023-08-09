@@ -12,7 +12,7 @@ const Profile = () => {
 
   return (
     <div className='main-profile'>
-      <Header title='Profile' user={user} />
+      <Header title='Profile' />
       <div className="profile-container">
         <div className="profile-left-container">
           <div className="profile-div">

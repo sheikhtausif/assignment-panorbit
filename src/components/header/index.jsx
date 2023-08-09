@@ -31,7 +31,7 @@ const Header = ({title}) => {
         <p>{title}</p>
         <div className="header-profile">
           <span onClick={handleOpen}>
-            <UserProfile profileUrl={user.profilepicture} username={user.name} />
+            <UserProfile user={user} />
           </span>
           {isOpen ? <span ref={modalRef}>< LogoutModal /></span> : null}
         </div>

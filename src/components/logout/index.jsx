@@ -23,10 +23,10 @@ const LogoutModal = () => {
       <p className='user-name'>{user.name}</p>
       <p className='user-email'>{user.email}</p>
       <span className='logout-user-details' onClick={() => handleSetUser(remainingUsers[0])}>
-        <UserProfile profileUrl={remainingUsers[0].profilepicture} username={remainingUsers[0].name} />
+        <UserProfile user={remainingUsers[0]} />
       </span>
-      <span className='logout-user-details' onClick={() => handleSetUser(remainingUsers[0])}>
-        <UserProfile profileUrl={remainingUsers[1].profilepicture} username={remainingUsers[1].name} />
+      <span className='logout-user-details' onClick={() => handleSetUser(remainingUsers[1])}>
+        <UserProfile user={remainingUsers[1]} />
       </span>
       <button className='logout-button' onClick={handleLogout}>
         Sign Out

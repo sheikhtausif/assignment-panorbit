@@ -23,7 +23,7 @@ const Dashboard = () => {
         <div className="users-list">
           {usersData?.map((user, index) => (
             <span key={`user${index + 1}`} onClick={() => handleNavigate(user)}>
-              <UserProfile profileUrl={user.profilepicture} username={user.name} />
+              <UserProfile user={user} />
             </span>
           ))}
         </div>

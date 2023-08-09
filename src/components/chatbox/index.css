@@ -1,0 +1,78 @@
+.chatbox-container {
+  width: 350px;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+  z-index: 2;
+}
+
+.chat-open-container {
+  width: 100%;
+  background: #2c65c8;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+.chat-open-container > .chat-heading {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-heading > span {
+  color: #ffff;
+  font-size: 22px;
+}
+.chat-heading > svg,
+.chat-open-container > span > svg {
+  fill: #ffff;
+  width: 30px;
+  height: 30px;
+}
+
+/* Chat Container Style */
+.chat-container {
+  width: 100%;
+  max-height: 400px;
+  overflow-y: scroll;
+  background: #ffff;
+  border: 1px solid #2c65c8;
+}
+
+.chat-open-arrow {
+  cursor: pointer;
+}
+
+.chat-open-arrow.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.online-user-container .user-details {
+  padding: 10px 20px;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.online-user-container .user-details .profile-pic {
+  width: 40px;
+  height: 40px;
+}
+
+.online-user-container .user-details p {
+  flex: 1;
+  font-size: 18px;
+}
+
+/* customize scrollbar for user list */
+.chat-container::-webkit-scrollbar {
+  width: 8px;
+}
+.chat-container::-webkit-scrollbar-track {
+  background: #ffff;
+  padding-right: 10px;
+}
+.chat-container::-webkit-scrollbar-thumb {
+  background: #d8d8d8;
+  border-radius: 5px;
+}
