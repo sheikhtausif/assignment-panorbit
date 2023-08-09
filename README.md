@@ -36,6 +36,7 @@ npm start
 ## Used Libraries
 
 <ul>
-  <li>axios</li>
   <li>React-router-dom</li>
+  <li>Context API</li>
+  <li>Axios</li>
 </ul>
