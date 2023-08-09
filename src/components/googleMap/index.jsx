@@ -1,8 +1,9 @@
-import {GoogleMap, LoadScript, Marker} from '@react-google-maps/api'
 import React from 'react'
+import {GoogleMap, LoadScript, Marker} from '@react-google-maps/api'
+
+import './index.css'
 
 const GoogleMapContainer = ({lat, lng}) => {
-
   const mapStyles = {
     height: '100%',
     width: '100%',

@@ -45,8 +45,8 @@ const Profile = () => {
             <TitleValueText title='Zipcode' value={user.address.zipcode} />
           </div>
           <div className="user-location-div">
-            {/* when uncomment the below map then css is not working*/}
-            {/* <GoogleMapContainer lat={Number(user.address.geo.lat)} lng={Number(user.address.geo.lng)} /> */}
+            {/* NOTE: if profile page UI not showing properly the comment the below line to see the remaining part of the page*/}
+            <GoogleMapContainer lat={Number(user.address.geo.lat)} lng={Number(user.address.geo.lng)} />
           </div>
           <div className="coordinate-div">
             <TitleValueText title='Lat' value={user.address.geo.lat} />
