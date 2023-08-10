@@ -1,6 +1,6 @@
 .google-map-container {
   width: 100%;
-  height: 600px;
+  height: 100%;
   border-radius: 32px;
 }
 .google-map-container > div:last-child {
