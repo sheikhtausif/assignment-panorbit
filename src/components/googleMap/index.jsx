@@ -1,9 +1,7 @@
 import React from 'react'
 import {GoogleMap, LoadScript, Marker} from '@react-google-maps/api'
-// import dotenv from 'dotenv'
 
 import './index.css'
-// dotenv.config()
 
 const GoogleMapContainer = ({lat, lng}) => {
   const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY
