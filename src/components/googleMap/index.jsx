@@ -5,7 +5,6 @@ import './index.css'
 
 const GoogleMapContainer = ({lat, lng}) => {
   const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY
-  console.log("GOOGLE_API_KEY", GOOGLE_API_KEY)
   const mapStyles = {
     height: '100%',
     width: '100%',
